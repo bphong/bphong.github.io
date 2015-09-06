@@ -1,0 +1,210 @@
+.about
+	color: white
+
+	.about-container
+		margin-left: 40%
+		margin-top: 8%
+		width: 40%
+
+		@media (max-width: 1024px)
+			width: 50%
+
+		@media (max-width: 768px)
+			margin-top: 15%
+
+		@media (max-width: 640px)
+			width: 330px
+
+		@media (max-width: 420px)
+			width: 80%
+			margin: 0 auto
+
+		@media (max-width: 320px)
+			width: 86%
+			margin: 0 auto
+
+		.profile-pic
+			position: absolute
+			top: 30%
+			left: 23%
+			width: 15%
+
+			border: 5px solid $selectionColor
+			border-radius: 50%
+			box-shadow: inset 0 0 4px 7px rgba(0,0,0,0.5)
+
+			@media (max-width: 1024px)
+				position: absolute
+				top: 31%
+				left: 16%
+				width: 20%
+
+			@media (max-width: 420px)
+				display: none
+
+
+		.header
+			margin-left: 0px
+
+			@media (max-width: 320px and 640px)
+				width: 90%
+				margin: 0 auto
+
+		p
+			font-size: 14px
+			letter-spacing: .1em
+			margin-bottom: 10px
+
+			@media (max-width: 1024px)
+				font-size: 12px
+
+			@media (max-width: 640px)
+				line-height: 2.4em
+
+			@media (max-width: 420px)
+				line-height: 2.8em
+
+		.about-lead
+			background-color: $selectionColor
+
+		.social-icons
+			list-style-type: none
+			padding: 0px
+			margin: 0px
+
+			@media (max-width: 1024px)
+				margin-top: 20px
+
+			@media (max-width: 640px)
+				margin-left: 0px
+
+			@media (max-width: 420px)
+				margin-left: 0px
+
+			@media (max-width: 320px)
+				margin-left: 0px
+				margin-bottom: 20px
+
+			li
+				display: inline
+				margin: 0px 10px 10px 0px
+
+			a
+				display: inline-block
+				text-align: center
+				text-decoration: none
+				background: white
+				color: black
+				font-size: 16px
+				height: 29px
+				width: 29px
+				line-height: 32px
+				border-radius: 50%
+				+transition(150ms)
+				box-shadow: none
+
+				&.social-facebook:hover
+					color: #3B5998
+
+				&.social-twitter:hover
+					color: #4099FF
+
+				&.social-instagram:hover
+					color: #517fa4
+
+				&.social-youtube:hover
+					color: #bb0000
+
+				&.social-email:hover
+					color: #3B5998
+
+				&:hover
+					+transform(scale(1.4))
+
+#credits
+	position: absolute
+	right: 10px
+	bottom: 105px
+
+	@media (max-width: 1024px)
+		bottom: 115px
+
+	@media (max-width: 768px)
+		bottom: 115px
+
+	@media (max-width: 320px)
+		position: static
+		padding: 0
+
+	p
+		display: inline
+		color: white
+
+	i
+		color: red
+
+	a
+		color: white
+		text-decoration: underline
+
+
+.music-player
+	position: absolute
+	bottom: 0
+
+	transition: all 0.3s ease-in-out
+	opacity: 0.1
+
+	&:hover
+		opacity: 1
+		box-shadow: 0px -1px 39px 2px rgba(245,52,0,1)
+
+	@media (max-width: 1024px)
+		box-shadow: 0px -1px 39px 2px rgba(245,52,0,1)
+		opacity: 1
+
+	@media (max-width: 420px)
+		display: none
+
+.video-overlay
+	display: flex
+	justify-content: center
+	align-items: center
+
+	position: fixed
+	left: 0
+	right: 0
+	top: 0
+	bottom: 0
+	background-color: rgba(0, 0, 0, 0.7)
+	z-index: 50
+
+	@media (max-width: 756px and 420px and 320px)
+		display: none
+
+.video-container
+	width: 853px
+	height: 480px
+	background-color: black
+	padding: 5px
+
+#hide-cta
+	position: absolute
+	top: 80%
+	left: calc(50% - 85px)
+	text-align: center
+	text-decoration: none
+	padding: 5px 10px
+	color: white
+	border: 2px solid white
+	transition: all 0.3s ease-in-out
+
+	margin-top: 30px
+
+	&:hover
+		color: black
+		background: white
+		border: 2px solid white
+
+.hide
+	display: none
