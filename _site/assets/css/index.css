@@ -2641,7 +2641,7 @@ body {
     width: 40%; }
     @media (max-width: 1290px) {
       .about .about-container {
-        margin-top: -30px; } }
+        margin-top: -40px; } }
     @media (max-width: 1024px) {
       .about .about-container {
         width: 55%; } }
