@@ -2639,9 +2639,9 @@ body {
     margin-left: 40%;
     margin-top: 6%;
     width: 40%; }
-    @media (max-width: 1280px) {
+    @media (max-width: 1290px) {
       .about .about-container {
-        margin-top: 0px; } }
+        margin-top: -30px; } }
     @media (max-width: 1024px) {
       .about .about-container {
         width: 55%; } }
