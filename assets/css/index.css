@@ -2608,6 +2608,9 @@ body {
       top: 35px;
       left: 7%;
       color: white; }
+      @media (max-width: 1280px) {
+        .nav .logo-container .motto {
+          left: 9%; } }
       @media (max-width: 1024px) {
         .nav .logo-container .motto {
           left: 11%; } }
@@ -2636,6 +2639,9 @@ body {
     margin-left: 40%;
     margin-top: 6%;
     width: 40%; }
+    @media (max-width: 1280px) {
+      .about .about-container {
+        margin-top: 0px; } }
     @media (max-width: 1024px) {
       .about .about-container {
         width: 55%; } }
