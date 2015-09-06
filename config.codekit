@@ -2,15 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19051",
 "files": {
-	"\/_includes\/about.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/about.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_includes\/audio.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -47,28 +38,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/assets\/img\/background(1).jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 60716,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/background(1).jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/background(1).jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/background.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 568022,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/background.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/background.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/assets\/img\/bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -95,31 +64,9 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 18578,
+		"initialSize": 15778,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/name.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/name.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/nickadamou.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 42014,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/nickadamou.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/nickadamou.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/overlay.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 218042,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/overlay.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/overlay.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -145,17 +92,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/_site\/assets\/jade\/about.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/jade\/about.jade",
-		"outputAbbreviatedPath": "\/_site\/assets\/jade\/about.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
 		},
 	"\/_site\/assets\/jade\/audio.jade": {
 		"compileDebug": 1,
@@ -245,6 +181,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/other\/name-(backup).png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20190,
+		"inputAbbreviatedPath": "\/_site\/assets\/other\/name-(backup).png",
+		"outputAbbreviatedPath": "\/_site\/assets\/other\/name-(backup).png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/other\/profilepicture.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -290,28 +237,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/img\/background(1).jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 60716,
-		"inputAbbreviatedPath": "\/assets\/img\/background(1).jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/background(1).jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/background.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/img\/background.png",
-		"outputAbbreviatedPath": "\/assets\/img\/background.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/img\/bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -341,28 +266,6 @@
 		"initialSize": 18578,
 		"inputAbbreviatedPath": "\/assets\/img\/name.png",
 		"outputAbbreviatedPath": "\/assets\/img\/name.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/nickadamou.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 42014,
-		"inputAbbreviatedPath": "\/assets\/img\/nickadamou.png",
-		"outputAbbreviatedPath": "\/assets\/img\/nickadamou.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/overlay.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 218042,
-		"inputAbbreviatedPath": "\/assets\/img\/overlay.png",
-		"outputAbbreviatedPath": "\/assets\/img\/overlay.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -484,6 +387,17 @@
 		"initialSize": 459324,
 		"inputAbbreviatedPath": "\/assets\/other\/Media-Page.png",
 		"outputAbbreviatedPath": "\/assets\/other\/Media-Page.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/other\/name-(backup).png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20190,
+		"inputAbbreviatedPath": "\/assets\/other\/name-(backup).png",
+		"outputAbbreviatedPath": "\/assets\/other\/name-(backup).png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
